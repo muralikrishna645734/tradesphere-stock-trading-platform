@@ -43,3 +43,39 @@ TradeSphere is a full-stack stock trading platform inspired by modern trading sy
 ---
 
 ## Project Structure
+
+# TradeSphere_Project
+
+TradeSphere_Project/
+├── backend        # Node.js + Express + MongoDB API
+├── frontend       # Landing page (React)
+├── dashboard      # Trading dashboard (React)
+
+---
+
+## Running the Project
+
+### Backend Setup
+
+```bash
+cd backend
+npm install
+npm start
+
+Server runs at:
+http://localhost:3002
+
+###Frontend Setup
+cd frontend
+npm install
+npm start
+
+Runs at:
+http://localhost:3000
+
+
+##Environment Variables
+Create a .env file inside the backend folder:
+
+PORT=3002
+MONGO_URL=your_mongodb_connection_string
